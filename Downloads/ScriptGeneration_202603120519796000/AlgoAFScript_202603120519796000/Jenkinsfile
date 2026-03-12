@@ -1,0 +1,51 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'master', url: 'https://github.com/NitishAutomaation/Algo-code.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                script {
+                    // Install Node.js dependencies
+                    bat 'npm install'
+                }
+            }
+        }
+
+        stage('Install Playwright Browsers') {
+            steps {
+                script {
+                    // Install Playwright browsers
+                    bat 'npx playwright install'
+                }
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                script {
+                    // Run Cucumber tests
+                    bat 'npm run test'
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // You can add steps to clean up or publish reports here
+            echo 'Cleaning up'
+        }
+        success {
+            echo 'Tests ran successfully!'
+        }
+        failure {
+            echo 'Tests failed'
+        }
+    }
+}
