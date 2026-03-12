@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     // Run Cucumber tests
-                    bat 'npm run test'
+                    bat 'npm run test --tag="@test001" '
                 }
             }
         }
