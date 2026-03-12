@@ -1,0 +1,35 @@
+<ApplicationSettings>
+    <URL>https://www.practo.com</URL>
+    <BrowserType>Chrome</BrowserType>
+    <Incognito>False</Incognito>
+    <EnableDebugLog>False</EnableDebugLog>
+    <UserSession>false</UserSession>
+    <EnableScreenshotForSuccess>True</EnableScreenshotForSuccess>
+    <EnableScreenshotForFailure>True</EnableScreenshotForFailure>
+    <EnableScreenshotForAllSteps>False</EnableScreenshotForAllSteps>
+    <EnableSeparateFailureReport>False</EnableSeparateFailureReport>
+    <DownloadInCurrentDirectory>False</DownloadInCurrentDirectory>
+    <HighLightWebElement>False</HighLightWebElement>
+    <EnableFullScreenshot>False</EnableFullScreenshot>
+    <EnableDesktopFullScreenshot>False</EnableDesktopFullScreenshot>
+    <StoreScreenshot>False</StoreScreenshot>
+    <QueuingForTestcases>False</QueuingForTestcases>
+    <ParallelExecution>False</ParallelExecution>
+    <EnableCompareImage>False</EnableCompareImage>
+    <ProjectName>pratco</ProjectName>
+    <UserName>Nitish</UserName>
+    <MaximumTimeInSecondsToWaitForControl>1</MaximumTimeInSecondsToWaitForControl>
+    <MaximumTimeInMilliSecondsToWaitForPage>15</MaximumTimeInMilliSecondsToWaitForPage>
+    <TimeIntervalInMilliSecondsToWaitForPage>500</TimeIntervalInMilliSecondsToWaitForPage>
+    <TestStatusForEmailAlert>Passed</TestStatusForEmailAlert>
+    <VideoRecording>False</VideoRecording>
+    <EnableSoftassertion>False</EnableSoftassertion>
+    <CaptureXpathAndTarget>False</CaptureXpathAndTarget>
+    <AutoHealing>False</AutoHealing>
+    <Token>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEyMTAsInByb2plY3RJZCI6NDc1MTcsInVzZXJOYW1lIjoiTml0aXNoIiwiY3VzdG9tZXJJZCI6IjEiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hbGdvc2hhY2submV0IiwiaWF0IjoxNzczMjkyNzk2fQ.LuoogdIwcHy3zK19_lIvHx7x50mmSOcLSo74To-3ubk</Token>
+    <Logger>info</Logger>
+    <ToEmail/>
+    <FromEmail/>
+    <FromPassword/>
+    <RetryFailedTestCaseCount>1</RetryFailedTestCaseCount>
+</ApplicationSettings>

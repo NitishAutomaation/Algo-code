@@ -1,0 +1,110 @@
+[
+  {
+    "locator": "//a[@title='book']//div[@class='product-tab__title']",
+    "target": "\"<div class='product-tab__title' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Find Doctors</div>\""
+  },
+  {
+    "locator": "//div[@class='c-omni-searchbox_wrapper ']//input[@placeholder='Search doctors, clinics, hospitals, etc.']",
+    "target": "\"<input data-qa-id='omni-searchbox-keyword' data-input-box-id='omni-searchbox-keyword' class='c-omni-searchbox c-omni-searchbox--large' autocomplete='off' placeholder='Search doctors, clinics, hospitals, etc.' value='' style='outline: rgb(46, 99, 242) dashed 3px !important;'>\""
+  },
+  {
+    "locator": "(//span[@class='c-omni-suggestion-item__content'][.//div[normalize-space()='Sarjapur Road']])[1]",
+    "target": "\"<div data-qa-id='omni-suggestion-subtext' class='c-omni-suggestion-item__content__sub_text' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Sarjapur Road</div>\""
+  },
+  {
+    "locator": "//h1[contains(normalize-space(.), 'Apollo clinic, Sarjapur Road')]",
+    "target": "\"<h1 class='c-profile__title u-d-inlineblock' data-qa-id='clinic-name' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Apollo clinic, Sarjapur Road</h1>\""
+  },
+  {
+    "locator": "//span[@class='u-d-item up-triangle'][.//span[normalize-space()='For Corporates']]",
+    "target": "\"<span class='nav-interact' event='Nav Provider Marketing:Interacted:Plus Corporate' style='outline: rgb(46, 99, 242) dashed 3px !important;'>For Corporates</span>\""
+  },
+  {
+    "locator": "//a[contains(normalize-space(.), 'Health & Wellness Plans')]",
+    "target": "\"<a class='nav-interact' event='Nav Provider Marketing:Interacted:Plus Corporate' href='https://www.practo.com/plus/corporate' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Health &amp; Wellness Plans</a>\""
+  },
+  {
+    "locator": "//li[normalize-space()='Our Services']",
+    "target": "\"<li class='nav-item u-display--inline-block u-text--bold text-white u-cur--ptr' role='presentation' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Our Services</li>\""
+  },
+  {
+    "locator": "//div[normalize-space()='Lab Tests at Home']",
+    "target": "\"<div class='u-text--bold text-gamma' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Lab Tests at Home</div>\""
+  },
+  {
+    "locator": "//div[@class='c-omni-searchbox_wrapper ']//input[@placeholder='Search location']",
+    "target": "\"<input data-qa-id='omni-searchbox-locality' data-input-box-id='omni-searchbox-locality' class='c-omni-searchbox c-omni-searchbox--large' autocomplete='off' placeholder='Search location' value='Bangalore' style='outline: rgb(46, 99, 242) dashed 3px !important;'>\""
+  },
+  {
+    "locator": "//div[normalize-space()='Bangalore']",
+    "target": "\"<div data-qa-id='omni-suggestion-main' class='c-omni-suggestion-item__content__title' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Bangalore</div>\""
+  },
+  {
+    "locator": "//span[@class='c-omni-suggestion-item__content'][.//div[normalize-space()='Dentist']]",
+    "target": "\"<div data-qa-id='omni-suggestion-main' class='c-omni-suggestion-item__content__title' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Dentist</div>\""
+  },
+  {
+    "locator": "//p[normalize-space()='Partha Dental Skin Hair']",
+    "target": "\"<p class='u-primary-text u-bold practice-name' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Partha Dental Skin Hair</p>\""
+  },
+  {
+    "locator": "//span[normalize-space()='Doctors']",
+    "target": "\"<span style='outline: rgb(46, 99, 242) dashed 3px !important;'>Doctors</span>\""
+  },
+  {
+    "locator": "//li[contains(normalize-space(.), 'Stories(55)')]",
+    "target": "\"<li data-qa-id='feedback-tab' class='react-tabs__tab' role='tab' id='react-tabs-131030' aria-selected='false' aria-disabled='false' aria-controls='react-tabs-131031' style='outline: rgb(46, 99, 242) dashed 3px !important;'><button class='c-btn--unstyled' aria-aria-haspopup='true'><span>Stories</span>(55)</button></li>\""
+  },
+  {
+    "locator": "//button[normalize-space()='Other Centers']",
+    "target": "\"<button class='c-btn--unstyled' aria-aria-haspopup='true' style='outline: rgb(46, 99, 242) dashed 3px !important;'><span>Other Centers</span></button>\""
+  },
+  {
+    "locator": "//div[normalize-space()='Jp Nagar']",
+    "target": "\"<div data-qa-id='omni-suggestion-main' class='c-omni-suggestion-item__content__title' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Jp Nagar</div>\""
+  },
+  {
+    "locator": "//div[normalize-space()='GenderMale DoctorFemale Doctor']",
+    "target": "\"<div role='button' tabindex='0' data-qa-id='doctor_gender_section' aria-haspopup='true' aria-expanded='false' class='c-filter__box u-pos-rel c-dropdown' style='outline: rgb(46, 99, 242) dashed 3px !important;'><span data-qa-id='doctor_gender_selected' class=' c-dropdown__selected'><span data-qa-id='selected_dropdown_filter'><span>Gender</span></span><i class='u-transition--transform u-d-inlineblock icon-ic_dropdown u-f-right'></i></span><ul tabindex='-1' role='listbox' data-qa-id='doctor_gender_list' class='c-dropdown__list'><li tabindex='-1' aria-label='Male Doctor' role='option' data-qa-id='male' class='c-dropdown__list__item'><span>Male Doctor</span></li><li tabindex='-1' aria-label='Female Doctor' role='option' data-qa-id='female' class='c-dropdown__list__item'><span>Female Doctor</span></li></ul></div>\""
+  },
+  {
+    "locator": "//ul[normalize-space()='Male DoctorFemale Doctor']",
+    "target": "\"<ul tabindex='0' role='listbox' data-qa-id='doctor_gender_list' class='c-dropdown__list' style='outline: rgb(46, 99, 242) dashed 3px !important;'><li tabindex='0' aria-label='Male Doctor' role='option' data-qa-id='male' class='c-dropdown__list__item'><span>Male Doctor</span></li><li tabindex='0' aria-label='Female Doctor' role='option' data-qa-id='female' class='c-dropdown__list__item'><span>Female Doctor</span></li></ul>\""
+  },
+  {
+    "locator": "(//span[.//span[normalize-space()='Patient Stories']])[2]",
+    "target": "\"<span style='outline: rgb(46, 99, 242) dashed 3px !important;'>Patient Stories</span>\""
+  },
+  {
+    "locator": "//ul[contains(normalize-space(.), '20+ Patient Stories100+ Patient Stories270+ Patient Stories510+ Patient Stories')]",
+    "target": "\"<ul tabindex='0' role='listbox' data-qa-id='doctor_review_count_list' class='c-dropdown__list' style='outline: rgb(46, 99, 242) dashed 3px !important;'><li tabindex='0' aria-label='20+ Patient Stories' role='option' data-qa-id='20,9999999' class='c-dropdown__list__item'><span>20+ Patient Stories</span></li><li tabindex='0' aria-label='100+ Patient Stories' role='option' data-qa-id='100,9999999' class='c-dropdown__list__item'><span>100+ Patient Stories</span></li><li tabindex='0' aria-label='270+ Patient Stories' role='option' data-qa-id='270,9999999' class='c-dropdown__list__item'><span>270+ Patient Stories</span></li><li tabindex='0' aria-label='510+ Patient Stories' role='option' data-qa-id='510,9999999' class='c-dropdown__list__item'><span>510+ Patient Stories</span></li></ul>\""
+  },
+  {
+    "locator": "//div[@class='c-filter__top__wrapper'][.//div[contains(normalize-space(.), 'Experience5+ Years of experience10+ Years of experience15+ Years of experience20+ Years of experience')]]",
+    "target": "\"<div role='button' tabindex='0' data-qa-id='years_of_experience_section' aria-haspopup='true' aria-expanded='false' class='c-filter__box u-pos-rel c-dropdown' style='outline: rgb(46, 99, 242) dashed 3px !important;'><span data-qa-id='years_of_experience_selected' class=' c-dropdown__selected'><span data-qa-id='selected_dropdown_filter'><span>Experience</span></span><i class='u-transition--transform u-d-inlineblock icon-ic_dropdown u-f-right'></i></span><ul tabindex='-1' role='listbox' data-qa-id='years_of_experience_list' class='c-dropdown__list'><li tabindex='-1' aria-label='5+ Years of experience' role='option' data-qa-id='5,9999999' class='c-dropdown__list__item'><span>5+ Years of experience</span></li><li tabindex='-1' aria-label='10+ Years of experience' role='option' data-qa-id='10,9999999' class='c-dropdown__list__item'><span>10+ Years of experience</span></li><li tabindex='-1' aria-label='15+ Years of experience' role='option' data-qa-id='15,9999999' class='c-dropdown__list__item'><span>15+ Years of experience</span></li><li tabindex='-1' aria-label='20+ Years of experience' role='option' data-qa-id='20,9999999' class='c-dropdown__list__item'><span>20+ Years of experience</span></li></ul></div>\""
+  },
+  {
+    "locator": "//ul[contains(normalize-space(.), '5+ Years of experience10+ Years of experience15+ Years of experience20+ Years of experience')]",
+    "target": "\"<ul tabindex='0' role='listbox' data-qa-id='years_of_experience_list' class='c-dropdown__list' style='outline: rgb(46, 99, 242) dashed 3px !important;'><li tabindex='0' aria-label='5+ Years of experience' role='option' data-qa-id='5,9999999' class='c-dropdown__list__item'><span>5+ Years of experience</span></li><li tabindex='0' aria-label='10+ Years of experience' role='option' data-qa-id='10,9999999' class='c-dropdown__list__item'><span>10+ Years of experience</span></li><li tabindex='0' aria-label='15+ Years of experience' role='option' data-qa-id='15,9999999' class='c-dropdown__list__item'><span>15+ Years of experience</span></li><li tabindex='0' aria-label='20+ Years of experience' role='option' data-qa-id='20,9999999' class='c-dropdown__list__item'><span>20+ Years of experience</span></li></ul>\""
+  },
+  {
+    "locator": "//h2[contains(normalize-space(.), 'Dr. Jnanesha H.C')]",
+    "target": "\"<h2 data-qa-id='doctor_name' class='doctor-name' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Dr. Jnanesha H.C</h2>\""
+  },
+  {
+    "locator": "//button[contains(normalize-space(.), 'Stories(513)')]",
+    "target": "\"<button class='c-btn--unstyled' aria-aria-haspopup='true' style='outline: rgb(46, 99, 242) dashed 3px !important;'><span>Stories</span>(513)</button>\""
+  },
+  {
+    "locator": "//span[contains(normalize-space(.), 'Consult Q&A')]",
+    "target": "\"<span style='outline: rgb(46, 99, 242) dashed 3px !important;'>Consult Q&amp;A</span>\""
+  },
+  {
+    "locator": "//span[normalize-space()='Healthfeed']",
+    "target": "\"<span style='outline: rgb(46, 99, 242) dashed 3px !important;'>Healthfeed</span>\""
+  },
+  {
+    "locator": "//div[normalize-space()='Dentist']",
+    "target": "\"<div data-qa-id='omni-suggestion-main' class='c-omni-suggestion-item__content__title' style='outline: rgb(46, 99, 242) dashed 3px !important;'>Dentist</div>\""
+  }
+]
